@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(images/Firefly\ black\ and\ neon\ green\ gradient\ colour\ background\ colour\ 81891.jpg);
+    font-family: "Montserrat";
+    background-attachment: fixed;
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 500;
+    color: rgb(30, 30, 30);
+}
+.header1 {
+    display: flex;
+    width: 100%;
+}
+.headdiv1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px 40px;
+    width: 30%;
+    font-size: 1.4em;
+    font-weight: 800;
+    color: white;
+}
+.headdiv2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 40%;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 15px 20px;
+    color: chartreuse;
+}
+.headdiv2 p:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: whitesmoke;
+}
+.headdiv3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 30%;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    color: white;
+}
+.headdiv4{
+    display: none;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 180px;
+}
+.sec1div1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 25px;
+}
+.sec1div2 img{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid chartreuse;
+}
+.spec1{
+    font-size: 10em;
+    color: chartreuse;
+    font-weight: 400;
+}
+.spec2{
+    font-size: 6em;
+}
+.sec1div1 span{
+    color: chartreuse;
+}
+.sec1div1 a{
+    font-size: 2em;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+.sec1div1 a:hover{
+    color: white;
+    background: chartreuse;
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: 2px solid chartreuse;
+    
+}
